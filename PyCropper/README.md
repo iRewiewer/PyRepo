@@ -2,9 +2,10 @@
 Small cropping utility using the PIL module and wxPython. It crops all files in the current directory using the same measurements.
 
 # How to use
-Place either the `cropper.exe` or `cropper.py` in the directory containing the images you want cropped and run it.  
+Install the modules from `requirements.txt`.
+Place the `app.py` in the directory containing the images you want cropped and run it.  
 You'll have to specify the cropped image's coordinates (you can find them using MS Paint or any other image editing utility).
-The default coordinates are set to Zoom shared screens.  
+The default coordinates are set to Zoom's shared screens.  
   
 The application features three buttons which are used:
 - to clear all cropped images (in case of wrong coordinates)
