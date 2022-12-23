@@ -35,7 +35,7 @@ class Frame(wx.Frame):
 
         self.panel = wx.Panel(self)
 
-        self.title = wx.StaticText(self.panel, label = "Cropper v2.0", pos = (122, 10), size = (200, 20))
+        self.title = wx.StaticText(self.panel, label = "PyCropper v2.0", pos = (122, 10), size = (200, 20))
         font = wx.Font(12, wx.DECORATIVE, wx.ITALIC, wx.NORMAL)
         self.title.SetFont(font)
 

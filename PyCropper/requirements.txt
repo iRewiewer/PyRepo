@@ -1,0 +1,2 @@
+pillow-heif==0.4.0
+wxpython==4.2.0
